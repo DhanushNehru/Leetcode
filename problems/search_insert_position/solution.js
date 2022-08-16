@@ -7,7 +7,7 @@ var searchInsert = function(nums, target) {
     let result = nums.indexOf(target)
     let i = 0;
     const numLength = nums.length;
-    if(!(result>=0)){
+    if(result<0){
         while(i<=numLength){
             if(nums[i]<target){
                 ++i;    
