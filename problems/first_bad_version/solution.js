@@ -22,7 +22,7 @@ var solution = function(isBadVersion) {
                 let start = 1
                 let end = n
                 while(end > start){
-                    const middle = parseInt(start + (end-start) / 2) 
+                    const middle = parseInt(start + ((end-start) / 2)) 
                     if(isBadVersion(middle)){
                         end=middle;
                     }
