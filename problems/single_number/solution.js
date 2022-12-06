@@ -3,10 +3,11 @@
  * @return {number}
  */
 var singleNumber = function(nums) {
-    // We implement this solution based on bitwise operator
-    let result = nums[0];
-    for(let i=1;i<nums.length;i++){
-        result = result^nums[i]
+    let bit = 0;
+    for(let i in nums){
+        // Bitwise operation XOR
+        // Sets each bit to 1 if only one of two bits is 1
+        bit^=nums[i] 
     }
-    return result;
+    return bit;
 };
