@@ -10,8 +10,6 @@
  * @return {ListNode}
  */
 var middleNode = function(head) {
-    console.log("Head ", head)
-    console.log("Typeof Head ", typeof(head))
     let slowPointer = head;
     let fastPointer = head;
     if(head != null){
@@ -20,6 +18,5 @@ var middleNode = function(head) {
             fastPointer = fastPointer.next.next;
         }
     }
-    console.log("Final slow pointer ",slowPointer);
     return slowPointer;
 };
