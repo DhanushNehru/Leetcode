@@ -2,24 +2,20 @@
  * @param {string[]} words
  * @return {number}
  */
+
 var similarPairs = function(words) {
-    let hash = {}
-    for(let i=0;i<words.length;i++){
-        words[i] = [...new Set(words[i])].sort().join("")
-        if(hash[words[i]] == undefined){
-            hash[words[i]]=1
-        }
-        else{
-            hash[words[i]]+=1
-        }
+    let pairs = 0
+    const wordsLength = words.length;
+    for(let i=0;i<wordsLength;i++){
+        // we sort and eliminate duplicates in each word in array
+        words[i] = Array.from(new Set(words[i].split('').sort())).join("")
     }
-    let result = 0
-    for(let i=0;i<words.length;i++){
-        for(let j=i+1;j<words.length;j++){
+    for(let i=0;i<wordsLength-1;i++){
+        for(let j=i+1;j<wordsLength;j++){
             if(words[i] == words[j]){
-                ++result
+                ++pairs
             }
         }
     }
-    return result
+    return pairs;
 };
