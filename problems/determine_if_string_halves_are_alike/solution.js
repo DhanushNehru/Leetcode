@@ -3,9 +3,16 @@
  * @return {boolean}
  */
 var halvesAreAlike = function(s) {
-    const stringLength = s.length;
-    const mid = Math.floor(stringLength/2)
-    let string1 = s.slice(0, mid).replace(/[aeiouAEIOU]/g,"")
-    let string2 = s.slice(mid, stringLength).replace(/[aeiouAEIOU]/g,"")
-    return string1.length == string2.length;
+    const vowels = "aeiouAEIOU", sLength = s.length;
+    let firstHalfVowelCount = 0, secondHalfVowelCount = 0;
+    for(let i=0; i<sLength/2; i++){
+        if(vowels.includes(s[i])){
+            ++firstHalfVowelCount
+        }
+        if(vowels.includes(s[sLength-i-1])){
+            ++secondHalfVowelCount
+        }
+    }
+
+    return firstHalfVowelCount == secondHalfVowelCount
 };
