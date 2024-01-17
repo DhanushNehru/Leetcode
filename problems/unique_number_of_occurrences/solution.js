@@ -3,17 +3,23 @@
  * @return {boolean}
  */
 var uniqueOccurrences = function(arr) {
-    // lets create an object which behaves as a hash
-    let hashObject = new Object();
-    for(let i=0; i< arr.length;i++){
-        // we check whether the object key contains the value and increment the occurrence count
-        if(hashObject[arr[i]]!=undefined){
-            hashObject[arr[i]] = ++hashObject[arr[i]]
+    const hash = {}, set = new Set()
+
+    for(let i=0;i<arr.length;i++){
+        hash[arr[i]] = hash[arr[i]] ? hash[arr[i]]+1 : 1
+    }
+
+    for(prop in hash){
+        // Check if the count of occurrences is not already in the set
+        if(!set.has(hash[prop])){
+            // Add the count of occurrences to the set
+            set.add(hash[prop])
         }
         else{
-            hashObject[arr[i]] = 1
+             // If the count of occurrences is already in the set, the occurrences are not unique
+            return false
         }
     }
-    const occurrencesArray = Object.values(hashObject)
-    return occurrencesArray.length == [...new Set(occurrencesArray)].length ? true: false;
+    // If the loop completes, all counts of occurrences are unique
+    return true
 };
