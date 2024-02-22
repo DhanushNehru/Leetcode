@@ -6,7 +6,7 @@
 
 I am dedicated to continuously improving this repository on regular basis by adding new solutions and updating existing ones.
 
-You can view my solutions organized by problem category in the [problems](https://github.com/Leetcode/problems/) folder.
+You can view my solutions organized by problem category in the [problems](https://github.com/DhanushNehru/Leetcode/problems/) folder.
 
 ### 📹 Watch the Journey
 
