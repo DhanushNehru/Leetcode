@@ -14,6 +14,8 @@ Check out my video on the journey of consistent LeetCode practice:
 
 [![A Year of LeetCode](https://img.youtube.com/vi/J-hDaEU8smE/0.jpg)](https://youtu.be/J-hDaEU8smE?si=0MIOxDQHw_VgbJZZ)
 
+[Read the article](https://dhanushnehru.medium.com/a-year-of-daily-consistent-leetcode-12a689aa6905)
+
 ### Show Your Support
 
 If you find these solutions helpful, please show your support by giving this repository a star ⭐
