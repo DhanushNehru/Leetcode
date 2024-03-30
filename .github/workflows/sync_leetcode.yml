@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Sync
-        uses: joshcai/leetcode-sync@v1.5
+        uses: joshcai/leetcode-sync@v1.6
         with:
           github-token: ${{ secrets.LEETCODE_GITHUB_TOKEN }}
           leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
