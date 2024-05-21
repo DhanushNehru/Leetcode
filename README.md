@@ -20,7 +20,9 @@ Check out my video on the journey of consistent LeetCode practice:
 
 If you find these solutions helpful, please show your support by giving this repository a star ⭐
 
-[![Support](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-orange?style=flat-square)](https://ko-fi.com/dhanushnehru)
+- 👉 [![Support](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-orange?style=flat-square)](https://ko-fi.com/dhanushnehru)
+- 👉 [![Github Sponsor](https://img.shields.io/badge/Sponsor-💖-brightgreen)](https://github.com/sponsors/DhanushNehru)
+
 
 ### Connect With Me
 
