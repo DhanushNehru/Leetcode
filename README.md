@@ -1,5 +1,14 @@
 # LeetCode Solutions 
 
+<div align="center">
+  
+[![Join Our Discord](https://img.shields.io/badge/Discord-Join%20Server-blue?logo=discord&style=for-the-badge)](https://discord.com/invite/Yn9g6KuWyA)
+[![Subscribe on YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?logo=youtube&style=for-the-badge)](https://www.youtube.com/@dhanushnehru?sub_confirmation=1)
+[![Subscribe to Newsletter](https://img.shields.io/badge/Newsletter-Subscribe-orange?style=for-the-badge)](https://dhanushn.substack.com/)
+
+</div>
+
+
 <img src="https://raw.githubusercontent.com/DhanushNehru/DhanushNehru/master/assets/wave.gif" width="20px" height="20px"/> Welcome to my collection of LeetCode problem solutions aimed at helping you ace your coding interviews!
 
 ![leetcode](https://github.com/DhanushNehru/Leetcode/assets/22955675/c1c8c081-10c7-4322-8efc-7b8f55cd58be)
