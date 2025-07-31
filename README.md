@@ -1,12 +1,10 @@
 # LeetCode Solutions 
 
-<div align="center">
+
   
 [![Join Our Discord](https://img.shields.io/badge/Discord-Join%20Server-blue?logo=discord&style=for-the-badge)](https://discord.com/invite/Yn9g6KuWyA)
 [![Subscribe on YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?logo=youtube&style=for-the-badge)](https://www.youtube.com/@dhanushnehru?sub_confirmation=1)
 [![Subscribe to Newsletter](https://img.shields.io/badge/Newsletter-Subscribe-orange?style=for-the-badge)](https://dhanushn.substack.com/)
-
-</div>
 
 
 <img src="https://raw.githubusercontent.com/DhanushNehru/DhanushNehru/master/assets/wave.gif" width="20px" height="20px"/> Welcome to my collection of LeetCode problem solutions aimed at helping you ace your coding interviews!
@@ -31,6 +29,10 @@ If you find these solutions helpful, please show your support by giving this rep
 
 - 👉 [![Support](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-orange?style=flat-square)](https://ko-fi.com/dhanushnehru)
 - 👉 [![Github Sponsor](https://img.shields.io/badge/Sponsor-💖-brightgreen)](https://github.com/sponsors/DhanushNehru)
+
+### 📊 My Stats 🔥
+
+![Leetcode Stats](https://leetcard.jacoblin.cool/dhanushnehru?ext=activity)
 
 
 ### Gitpod
